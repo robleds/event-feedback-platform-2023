@@ -1,0 +1,81 @@
+{
+  "name": "oba-shell-csonline-pesquisa-2023",
+  "version": "1.1.2",
+  "description": "Coletar o feedback e as ideias do Revendedor para disponibilizar novos benefícios para trocar os pontos do Valoriza.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU-USUARIO/oba-shell-csonline-pesquisa-2023.git"
+  },
+  "private": true,
+  "license": "ObaTag Copyrights 2023",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "scp -r ./dist/* root@157.230.209.233:/var/www/html",
+    "https-preview": "serve dist",
+    "prepare": "husky install",
+    "start-sw": "http-server ./build",
+    "erease-cache": "xcrun simctl erase all"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/lab": "5.0.0-alpha.100",
+    "@mui/material": "^5.10.6",
+    "@mui/system": "^5.10.6",
+    "@mui/utils": "^5.10.6",
+    "firebase": "^9.20.0",
+    "is-mobile": "^3.1.1",
+    "notistack": "^2.0.5",
+    "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^3.1.4",
+    "react-helmet-async": "^1.3.0",
+    "react-hotkeys-hook": "^3.4.7",
+    "react-router-dom": "^6.4.1",
+    "recoil": "^0.7.5"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
+    "@types/node": "^18.7.21",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "@vitejs/plugin-react": "^2.1.0",
+    "eslint": "^8.24.0",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "https-localhost": "^4.7.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.3",
+    "vite-plugin-pwa": "^0.13.1"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ],
+    "src/**/*.{js,jsx,ts,tsx,json}": [
+      "eslint --max-warnings=2"
+    ]
+  },
+  "author": {
+    "name": "Rodrigo Robledo • Doctor Web",
+    "email": "robledo@doctorweb.com.br",
+    "url": "http://doctorweb.com.br/"
+  },
+  "keywords": [
+    "react",
+    "pwa",
+    "shell",
+    "valoriza",
+    "NPS"
+  ]
+}

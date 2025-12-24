@@ -1,0 +1,27 @@
+{
+  "name": "CSOnline Pesquisa",
+  "short_name": "Pesquisa",
+  "description": "Coletar o feedback e as ideias do Revendedor para disponibilizar novos benefícios para trocar os pontos do Valoriza.",
+  "theme_color": "#792b7e",
+  "background_color": "#792b7e",
+  "start_url": ".",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'Din Regular';
+  src: local('DinRegular'), url('./fonts/din-pro-400-regular.ttf') format('truetype'),
+    url('./fonts/din-pro-400-regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Din Medium';
+  src: local('DinMedium'), url('./fonts/din-pro-500-medium.ttf') format('truetype'),
+    url('./fonts/din-pro-500-medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Din Semibold';
+  src: local('DinSemibold'), url('./fonts/din-pro-600-semibold.ttf') format('truetype'),
+    url('./fonts/din-pro-600-semibold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Din Bold';
+  src: local('DinBold'), url('./fonts/din-pro-700-bold.ttf') format('truetype'),
+    url('./fonts/din-pro-700-bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Din Extrabold';
+  src: local('DinExtrabold'), url('./fonts/din-pro-800-extrabold.ttf') format('truetype'),
+    url('./fonts/din-pro-800-extrabold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Din Heavy';
+  src: local('DinHeavy'), url('./fonts/din-pro-900-heavy.ttf') format('truetype'),
+    url('./fonts/din-pro-900-heavy.woff2') format('woff2');
+}
+
+body {
+  background-color: #872186 !important; /* 72267f  ||  781e77 || 792b7e || 872186 */
+}
+
+.video-container {
+  /* background-color: #fff; */
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.fullScreenVideo {
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.keyboard-open {
+  background-color: 'yellow';
+  opacity: 0.2;
+}
+
+.arrow-initial-button.MuiSvgIcon-root {
+  color: #fff;
+  font-size: 34px;
+}
+.arrow-secondary-button.MuiSvgIcon-root {
+  color: #fff;
+  font-size: 38px;
+}
+.buttonContainer.MuiBox-root {
+  /* justify-content: flex-end; */
+  align-items: flex-end;
+}
+.buttonContainer__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 6% 4% 0;
+  row-gap: 20px;
+}
+.initial-button.MuiButton-root {
+  background-color: #25c0d8;
+  border: 0;
+  color: #fff;
+  font-family: 'Din Bold';
+  padding: 6px 60px 5px 60px;
+  border-radius: 12px;
+}
+.initial-button.MuiButton-root:hover {
+  background-color: #25c0d8;
+  color: #fff;
+}
+.bg-quiz {
+  position: relative;
+  flex-direction: column;
+  background-color: #f3f8f8;
+  justify-content: space-between !important;
+  padding-bottom: 30px;
+}
+.bg-quiz:before {
+  content: '';
+  position: fixed;
+  top: 40%;
+  left: 0;
+  background-color: #edeeed;
+  width: 140vw;
+  height: 140vh;
+  border-radius: 50%;
+}
+.white-card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 15px;
+  padding-top: 60px;
+}
+.text-area-input.MuiInputBase-root {
+  /* height: 133px !important; */
+}
+
+.fade {
+  animation: shake 0.3s ease-in-out 0s 3;
+}
+@keyframes shake {
+  0% {
+    right: 0rem;
+  }
+  20% {
+    right: 0.5rem;
+  }
+  40% {
+    right: -0.5rem;
+  }
+  60% {
+    right: 0.5rem;
+  }
+  80% {
+    right: -0.5rem;
+  }
+  100% {
+    right: 0rem;
+  }
+}

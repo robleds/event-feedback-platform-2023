@@ -1,0 +1,26 @@
+.checkbox__list {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 70px 70px 70px;
+  border-radius: 15px;
+  row-gap: 15px;
+  margin-bottom: 50px;
+}
+.checkbox__label {
+  display: block;
+  width: 100%;
+  font-family: 'Din Bold';
+  font-size: 17px;
+  background-color: #d4d6d4;
+  border-radius: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #7f807f;
+  padding: 8px 30px;
+}
+.checkbox__checkbox:checked ~ label {
+  background-color: #e84256;
+  color: #fff;
+}
