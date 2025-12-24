@@ -1,4 +1,4 @@
-# Event Feedback Platform 2023
+# Event Feedback Platform
 
 Plataforma de coleta de feedback para eventos
 
@@ -22,8 +22,8 @@ Plataforma web desenvolvida com React e Vite para coleta de feedback e pesquisas
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/robleds/event-feedback-platform-2023.git
-cd event-feedback-platform-2023
+git clone https://github.com/robleds/event-feedback-platform.git
+cd event-feedback-platform
 ```
 
 2. Instale as dependências:

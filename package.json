@@ -1,10 +1,10 @@
 {
-  "name": "event-feedback-platform-2023",
+  "name": "event-feedback-platform",
   "version": "1.1.2",
   "description": "Coletar o feedback e as ideias do Revendedor para disponibilizar novos benefícios para trocar os pontos do Valoriza.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SEU-USUARIO/event-feedback-platform-2023.git"
+    "url": "https://github.com/robleds/event-feedback-platform.git"
   },
   "private": true,
   "license": "ObaTag Copyrights 2023",
@@ -67,7 +67,7 @@
     ]
   },
   "author": {
-    "name": "event-feedback-platform-2023",
+    "name": "event-feedback-platform",
     "email": "robledo@doctorweb.com.br",
     "url": "http://doctorweb.com.br/"
   },
