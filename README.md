@@ -1,17 +1,15 @@
-# event-feedback-platform-2023
+# Event Feedback Platform 2023
 
-Aplicação web de pesquisa desenvolvida para o evento CS Online 2023.
+Plataforma de coleta de feedback para eventos
 
 ## 📋 Sobre o Projeto
 
-Aplicação web desenvolvida com React e Vite para coleta de feedback e pesquisas durante o evento CS Online 2023.
+Plataforma web desenvolvida com React e Vite para coleta de feedback e pesquisas durante eventos corporativos. Permite aos organizadores coletar opiniões dos participantes, avaliar a satisfação e obter insights valiosos para melhorar futuros eventos.
 
 ## 🛠️ Tecnologias Utilizadas
 
+- **JavaScript** - Linguagem de programação
 - **React** - Biblioteca JavaScript para construção de interfaces
-- **TypeScript** - Superset do JavaScript com tipagem estática
-- **Vite** - Build tool e dev server
-- **Material-UI** - Biblioteca de componentes UI
 
 ## 🚀 Como Configurar
 
@@ -24,7 +22,7 @@ Aplicação web desenvolvida com React e Vite para coleta de feedback e pesquisa
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/SEU-USUARIO/event-feedback-platform-2023.git
+git clone https://github.com/robleds/event-feedback-platform-2023.git
 cd event-feedback-platform-2023
 ```
 
@@ -50,20 +48,6 @@ yarn build
 # ou
 npm run build
 ```
-
-### Preview da Build
-```bash
-yarn preview
-# ou
-npm run preview
-```
-
-## 📝 Scripts Disponíveis
-
-- `yarn dev` - Inicia o servidor de desenvolvimento
-- `yarn build` - Cria build de produção
-- `yarn preview` - Preview da build de produção
-- `yarn lint` - Executa o linter
 
 ## 📄 Licença
 
