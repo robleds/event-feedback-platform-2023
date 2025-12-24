@@ -1,4 +1,4 @@
-# OBA Shell CS Online Pesquisa 2023
+# event-feedback-platform-2023
 
 Aplicação web de pesquisa desenvolvida para o evento CS Online 2023.
 
@@ -24,8 +24,8 @@ Aplicação web desenvolvida com React e Vite para coleta de feedback e pesquisa
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/SEU-USUARIO/oba-shell-csonline-pesquisa-2023.git
-cd oba-shell-csonline-pesquisa-2023
+git clone https://github.com/SEU-USUARIO/event-feedback-platform-2023.git
+cd event-feedback-platform-2023
 ```
 
 2. Instale as dependências:

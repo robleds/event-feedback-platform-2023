@@ -1,10 +1,10 @@
 {
-  "name": "oba-shell-csonline-pesquisa-2023",
+  "name": "event-feedback-platform-2023",
   "version": "1.1.2",
   "description": "Coletar o feedback e as ideias do Revendedor para disponibilizar novos benefícios para trocar os pontos do Valoriza.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SEU-USUARIO/oba-shell-csonline-pesquisa-2023.git"
+    "url": "https://github.com/SEU-USUARIO/event-feedback-platform-2023.git"
   },
   "private": true,
   "license": "ObaTag Copyrights 2023",
@@ -67,7 +67,7 @@
     ]
   },
   "author": {
-    "name": "Rodrigo Robledo • Doctor Web",
+    "name": "event-feedback-platform-2023",
     "email": "robledo@doctorweb.com.br",
     "url": "http://doctorweb.com.br/"
   },
